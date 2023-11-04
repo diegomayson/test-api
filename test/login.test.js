@@ -9,8 +9,8 @@ it("Should get a login token",async ()=>{
             "Content-Type":"application/json"
         },
         body:JSON.stringify({
-            "userName":"bvalentino@gmail.com",
-            "password":"P@ssw0rd"
+            "userName":"ireneperry@gmail.com",
+            "password":"Philip@2020"
         })
     }
     const response = await fetch('https://dev.stedi.me/login',options);
